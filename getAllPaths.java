@@ -54,7 +54,7 @@ public class getAllPaths {
 
 	public static void main(String[] args) {
 		//test
-		getAllPaths ob = getAllPaths();
+		getAllPaths ob = new getAllPaths();
 		int [] [] sample_graph = {{1,2},{3}, {3}, {}};
 		System.out.println(Arrays.deepToString(ob.allPaths(sample_graph)));
 
