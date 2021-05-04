@@ -35,9 +35,9 @@ public class getAllPaths {
 	 * @param path
 	 * 
 	 */
-	private void getpath(int [][] graph,int start,List<List<Integer>> list, List<Integer> path){
-		path.add(start); //path starts at a designated vertex each time
-		 if(start == graph.length-1){ //add the path to the temporary 2d list
+	private void getpath(int [][] graph,int v,List<List<Integer>> list, List<Integer> path){
+		path.add(v); //path starts at a designated vertex each time
+		 if(v == graph.length-1){ //add the path to the temporary 2d list
 			 list.add(new ArrayList(path));
 		 }
 		 else {
